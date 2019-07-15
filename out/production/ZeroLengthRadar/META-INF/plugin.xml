@@ -2,7 +2,7 @@
   <id>com.ultrahob.zerolength.plugin2</id>
   <name>Zero Width Characters locator 2</name>
   <version>0.93</version>
-  <vendor url="https://github.com/harley84/ZeroLengthRadar">Victor Rosenberg</vendor>
+  <vendor url="https://github.com/bluelovers/ZeroLengthRadar">Victor Rosenberg</vendor>
 
   <description><![CDATA[
       Inspired by <a href="http://stackoverflow.com/q/9868796/579828">this question</a> on Stack Overflow - this plugin adds an inspection that prevents
