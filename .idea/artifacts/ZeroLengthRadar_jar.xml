@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ZeroLengthRadar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ZeroLengthRadar_jar</output-path>
+    <root id="archive" name="ZeroLengthRadar.jar">
+      <element id="module-output" name="ZeroLengthRadar" />
+    </root>
+  </artifact>
+</component>
