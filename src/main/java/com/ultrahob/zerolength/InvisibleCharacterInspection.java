@@ -40,7 +40,7 @@ public class InvisibleCharacterInspection extends LocalInspectionTool {
     public boolean reportEndOfText = true;
     public boolean reportNoBreakSpace = true;
     public boolean reportLineSeparator = true;
-    public boolean startOfHeading = true;
+    public boolean reportStartOfHeading = true;
 
     private List<InvisibleCharacterDescriptor> getDescriptors() {
         return Arrays.asList(
@@ -219,8 +219,8 @@ public class InvisibleCharacterInspection extends LocalInspectionTool {
                 return InvisibleCharacterInspection.this.reportNoBreakSpace;
             } else if ("reportLineSeparator".equals(propertyName)) {
                 return InvisibleCharacterInspection.this.reportLineSeparator;
-            }  else if ("startOfHeading".equals(propertyName)) {
-                return InvisibleCharacterInspection.this.reportstartOfHeading;
+            }  else if ("reportStartOfHeading".equals(propertyName)) {
+                return InvisibleCharacterInspection.this.reportStartOfHeading;
             } else {
                 // vsch: should really assert fail here because we forgot to add a case
                 return false;
